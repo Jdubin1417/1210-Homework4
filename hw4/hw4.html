@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Homework 4</title>
+    <meta name="author" content="Justin Dubin">
+    <meta name="description" content='CSCI 1210 Homework'>
+    <meta name="keywords" content='CSCI 1210, homework 4'>
+
+    <!-- additional links (we'll talk about this later). Do not change! -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel='stylesheet'>
+    <link href='http://csci1210.com/csci1210/images/favicon.ico' rel='icon'>
+    <link href='css/hw4.css' rel='stylesheet'>
+
+    <!--  
+			Author:         Justin Dubin		 
+			Date:		 	30 Mar 2022
+			Assignment:	    Homework 4
+			Purpose:		Practice with Tables
+    -->
+</head>
+
+<body>
+    <header>
+        <p class='name-block'>
+            Name: Justin Dubin
+            <br><br>
+            Date: 30 Mar 2022
+        </p>
+        <h1>CSCI 1210</h1>
+        <h2>Essentials of Web Development</h2>
+
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Office #</th>
+                <th>Extension #</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>Leona Everett</td>
+                <td>CEO</td>
+                <td>908</td>
+                <td>x7856</td>
+                <td>leverett@contoso.com</td>
+            </tr>
+            <tr>
+                <td>Eric Harmon</td>
+                <td>CIO</td>
+                <td>817</td>
+                <td>x4495</td>
+                <td>eharmon@contoso.com</td>
+            </tr>
+            <tr>
+                <td>Zack McCall</td>
+                <td>Sales Associate</td>
+                <td>223</td>
+                <td>x9023</td>
+                <td>zmccall@contoso.com</td>
+            </tr>
+            <tr>
+                <td>Edward Gray</td>
+                <td>System Administrator</td>
+                <td>8403</td>
+                <td>x7391</td>
+                <td>egray@contoso.com</td>
+            </tr>
+            <tr>
+                <td>April Barnett</td>
+                <td>Lead Developer</td>
+                <td>149</td>
+                <td>x3917</td>
+                <td>abarnett@contoso.com</td>
+            </tr>
+            <tr>
+                <td>Leon Dubois</td>
+                <td>Developer</td>
+                <td>187</td>
+                <td>x3917</td>
+                <td>ldubois@contoso.com</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div>
+        <table id='prod'>
+            <tr>
+                <th colspan="2">Product</th>
+                <th>Type</th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/001.jpg' alt='Hard Drive'></td>
+                <td rowspan="2">Hard Drive</td>
+                <td rowspan="2">Seagate</td>
+                <td>$49.99</td>
+            </tr>
+            <tr>
+                <td>2/$88.00</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/002.jpg' alt=''></td>
+                <td rowspan="2">Mouse</td>
+                <td rowspan="2">Logitech</td>
+                <td>$39.99</td>
+            </tr>
+            <tr>
+                <td>2/$70.00</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/003.jpg' alt=''></td>
+                <td rowspan="2">Tower</td>
+                <td rowspan="2">Alienware</td>
+                <td>$2449.00</td>
+            </tr>
+            <tr>
+                <td>2/NA</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/004.jpg' alt=''></td>
+                <td rowspan="2">Flash Drive</td>
+                <td rowspan="2">Sandisk</td>
+                <td>$9.99</td>
+            </tr>
+            <tr>
+                <td>2/$19.00</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/005.jpg' alt=''></td>
+                <td rowspan="2">Motherboard</td>
+                <td rowspan="2">MSI</td>
+                <td>$129.00</td>
+            </tr>
+            <tr>
+                <td>2/$250.00</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/006.jpg' alt=''></td>
+                <td rowspan="2">CPU</td>
+                <td rowspan="2">Intel</td>
+                <td>$372.45</td>
+            </tr>
+            <tr>
+                <td>2/$700.00</td>
+            </tr>
+            <tr>
+                <td colspan='2' rowspan="2"><img src='images/007.jpg' alt='ram'></td>
+                <td rowspan="2">RAM</td>
+                <td rowspan="2">PNY</td>
+                <td>$139.99</td>
+            </tr>
+            <tr>
+                <td>2/$270.00</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src='/js/w3c.js'></script>
+</body>
+
+</html>

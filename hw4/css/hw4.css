@@ -1,0 +1,87 @@
+/*
+    hw4.css
+            Author:         Jack
+            Date:           2020-02-13
+            Last Revised:   2020-02-13
+            Purpose:        Styling for Homework 4
+*/
+
+body {
+    box-sizing: border-box;
+    background: #f9f9f9;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    width: 100%;
+    background: rgba(0, 0, 25, .9);
+    border-bottom: 1px solid #00a;
+    height: 130px;
+    margin-bottom: 25px;
+}
+header h1,
+header h2 {
+    color: gold;
+    margin-left: 25px;
+    width: 50%;
+    padding-top: 10px;
+}
+header h2 {
+    padding: 0;
+}
+div {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 30px;
+    box-shadow: 3px 5px 5px rgba(100, 100, 100, .6);
+    clear: both;
+    background: rgba(0, 0, 200, .1);
+}
+.name-block {
+    width: 300px;
+    padding: 15px;
+    float: right;
+    margin: 10px 30px 30px 0;
+    background: white;
+    box-shadow: 3px 5px 5px rgba(225, 225, 225, .4);
+}
+table {
+    width: 600px;
+    margin: auto;
+    border: 1px solid #888;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 4px;
+    border: 1px solid #888;
+}
+table#prod img{
+    display: block;
+    margin: auto;
+}
+table#prod td {
+    text-align: center;
+    vertical-align: middle;
+}
+table#prod th {
+    background: rgba(255,100,100,.1);
+}
+.modal {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.1);
+}
+.modal-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background: #000;
+}
